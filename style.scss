@@ -57,6 +57,17 @@ html {
   color:white;
   padding-bottom: 20px;
   margin-inline: -8px;
+}
+
+.otherpages_background {
+  margin-inline: 0;
+  background-color: #151515db;
+  color: white;
+  padding-bottom: 20px;
+  a {
+    color: white;
+  }
+}
 
   ul{
     display: flex;
@@ -66,7 +77,7 @@ html {
   }
 
 
-}
+
 
 .fa .far, .fas {
   font-weight: 900;
@@ -1023,10 +1034,7 @@ li {
     margin-left: 50px;
   }
 
-  .footer_page {
-    margin-inline: 0;
-  }
-
+  
   .detail_titles p {
     font-size: 14px;
   }

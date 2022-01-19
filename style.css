@@ -52,7 +52,18 @@ html {
   margin-inline: -8px;
 }
 
-.footer_page ul {
+.otherpages_background {
+  margin-inline: 0;
+  background-color: #151515db;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.otherpages_background a {
+  color: white;
+}
+
+ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1125,9 +1136,6 @@ p, h3 {
     -ms-flex-align: center;
     align-items: center;
     margin-left: 50px;
-  }
-  .footer_page {
-    margin-inline: 0;
   }
   .detail_titles p {
     font-size: 14px;
