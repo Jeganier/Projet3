@@ -49,6 +49,7 @@ html {
   background-color: #151515db;
   color: white;
   padding-bottom: 20px;
+  margin-inline: -8px;
 }
 
 .footer_page ul {
@@ -921,6 +922,7 @@ p, h3 {
   }
 }
 
+/*mediaaaaaaaaaaaaaaaa*/
 @media screen and (max-width: 651px) {
   .page_wrapper {
     font-size: 15px;
