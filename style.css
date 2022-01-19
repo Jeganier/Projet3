@@ -945,6 +945,28 @@ p, h3 {
   .arrow {
     left: 20px;
   }
+  p, h3 {
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 19px;
+  }
+  .place {
+    padding-left: 81px;
+  }
+  .logo {
+    padding-left: 82px;
+  }
+  .card_containers {
+    width: 92%;
+  }
+  .containers_pictures img {
+    height: 300px;
+  }
+  .button_restaurant {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 412px) {
@@ -1020,7 +1042,26 @@ p, h3 {
   }
 }
 
+@media screen and (max-width: 393px) {
+  .logo {
+    padding-left: 22px;
+  }
+  containers {
+    padding-left: 43px;
+  }
+  li {
+    margin-right: 97px;
+  }
+}
+
 @media screen and (max-width: 390px) {
+  p, h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    width: 86%;
+  }
   .button_restaurant {
     font-size: 13px;
   }
@@ -1040,9 +1081,12 @@ p, h3 {
   .place {
     padding-left: 74px;
   }
+  .logo {
+    padding-left: 22px;
+  }
   .logo img {
-    width: 158px;
-    margin-left: -12px;
+    width: 168px;
+    margin-left: 0;
   }
   .contained_details {
     font-size: 24px;
@@ -1077,6 +1121,12 @@ p, h3 {
     align-items: center;
     margin-left: 50px;
   }
+  .footer_page {
+    margin-inline: 0;
+  }
+  .detail_titles p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -1101,6 +1151,30 @@ p, h3 {
   .logo img {
     margin-left: 18px;
     width: 195px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .button_restaurant {
+    font-size: 15px;
+  }
+  .options {
+    font-size: 11px;
+  }
+  .containers {
+    width: 78%;
+  }
+  .containers_pictures img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    border-radius: 26px 26px 0 0;
+    height: 211px;
+    cursor: pointer;
+  }
+  .card_containers {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */
