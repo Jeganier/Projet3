@@ -938,7 +938,30 @@ li {
 }
 
 
+@media screen and (max-width :530px) {
 
+  .options {
+    display: flex;
+    flex-direction: column;
+    margin-top: -63px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+  
+  .place {
+    padding-left: 81px;
+  }
+
+  .logo img {
+    margin-left: 18px;
+    width: 195px;
+  }
+
+  
+}
 
 
 
