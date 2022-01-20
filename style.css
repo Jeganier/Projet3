@@ -988,72 +988,69 @@ p, h3 {
     white-space: nowrap;
     font-size: 10px;
   }
-  .containers li {
-    gap: 0;
-  }
-  .card_containers {
+  .containers .card_containers {
     width: 90%;
   }
-  .containers_pictures img {
+  .containers .containers_pictures img {
     height: 211px;
   }
-  .button_order {
+  .containers .button_order {
     width: 40%;
   }
-  .contained_details h1 {
+  .containers .contained_details h1 {
     font-size: smaller;
     position: relative;
   }
-  .contained_details i {
+  .containers .contained_details i {
     margin-top: -68px;
     position: absolute;
   }
-  .title .fa-heart {
+  .containers .title .fa-heart {
     position: absolute;
     right: 43px;
     font-size: 39px;
     margin-top: 21px;
   }
-  .fa-heart {
+  .containers .fa-heart {
     position: absolute;
     right: 43px;
     font-size: 39px;
     margin-top: 21px;
   }
-  .operation h2 {
+  .containers .operation h2 {
     margin-right: 49%;
     margin-top: 38px;
     margin-bottom: 33px;
   }
-  .button_restaurant {
+  .containers .button_restaurant {
     font-size: 15px;
   }
-  .place {
+  .containers .place {
     padding-left: 77px;
     gap: 10px;
   }
-  .logo img {
+  .containers .logo img {
     width: 171px;
     margin-left: 5px;
   }
-  .menu {
+  .containers .menu {
     font-size: small;
   }
-  .detail_titles p {
+  .containers .detail_titles p {
     font-size: initial;
   }
-  p, h3 {
+  .containers p, .containers h3 {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .button_order {
+  .containers .button_order {
     width: 43%;
     font-size: 18px;
     margin-left: 29%;
   }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 412px) and (max-width: 393px) {
   .logo {
     padding-left: 22px;
   }
@@ -1070,7 +1067,7 @@ p, h3 {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) and (max-width: 390px) {
   p, h3 {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1142,7 +1139,7 @@ p, h3 {
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 412px) and (max-width: 530px) {
   .options {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1167,7 +1164,7 @@ p, h3 {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 412px) and (max-width: 412px) {
   .button_restaurant {
     font-size: 15px;
   }
@@ -1188,6 +1185,42 @@ p, h3 {
   }
   .card_containers {
     width: 90%;
+  }
+  .logo {
+    padding-left: 0;
+  }
+  .containers
+li {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  p, h3 {
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    width: 92%;
+  }
+  .contained_details i {
+    margin-top: -54px;
+    position: absolute;
+  }
+  .contained_details h1 {
+    font-size: smaller;
+    position: relative;
+  }
+  .detail_titles p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 37px;
+    margin-bottom: 18px;
+  }
+  .price_details {
+    margin-left: -16px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -67,6 +67,7 @@ html {
   a {
     color: white;
   }
+
 }
 
   ul{
@@ -818,11 +819,8 @@ p,h3{
     white-space: nowrap;
     font-size: 10px;
 
-    li {
-      gap: 0;
-    }
-
-  }
+  
+  
 
   .card_containers {
     width: 90%;
@@ -1073,7 +1071,7 @@ li {
 }
 
 
-@media screen and (max-width :414px)  {
+@media screen and (max-width :412px)  {
 
   .button_restaurant {
     font-size: 15px;
@@ -1101,7 +1099,52 @@ li {
   .card_containers {
     width: 90%;
   }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  .containers 
+    li {
+      margin-right: 0;
+      font-size: 20px;
+  }
   
+p,h3  {
+
+
+  margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    width: 92%;
+}
+
+.contained_details i {
+    margin-top: -54px;
+    position: absolute;
+
+}
+
+.contained_details h1{
+  font-size: smaller;
+  position: relative;
+}
+
+.detail_titles p {
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 37px;
+    margin-bottom: 18px;
+}
+
+.price_details  {
+  margin-left: -16px;
+}
 
 
 
@@ -1114,12 +1157,4 @@ li {
 
 }
 
-
-
-
-
-
-
-
-
-
+}
