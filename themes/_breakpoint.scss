@@ -1,0 +1,180 @@
+// /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.page_wrapper {
+
+  font-size: 15px; 
+}
+  
+.body_page {
+  font-size: 15px;
+}
+
+
+.contained_details h1 {
+  font-size: smaller;
+  position: relative;
+}
+
+.contained_details i {
+  margin-top: -78px;
+  position: absolute;
+}
+
+.arrow {
+  left: 20px;
+}
+
+.operation h2 {
+  margin-left:  46px;
+  margin-top: 44px;
+  margin-bottom:  40px;
+
+}
+
+.eating_menu--titles {
+  flex: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+p, h3 {
+  overflow: hidden;
+  text-overflow: hidden;
+  white-space: nowrap;
+  width: 92%;
+}
+
+
+
+.place {
+  padding-left: 81px;
+}
+
+.logo {
+  padding-left: 82px;
+}
+
+.card_containers {
+  display: flex;
+  width: 90%;
+  &_pictures img {
+    height: 230px;
+  }
+
+}
+
+
+.button_restaurant {
+  font-size: 18px;
+}
+
+
+.fa-heart {
+  right: 51px;
+  font-size: 29px;
+  margin-top: 24px;
+}
+
+.contained_details i {
+  margin-top: -75px;
+  position: absolute;
+  margin-left: 50px;
+
+}
+
+@keyframes fullheart {
+  0% {
+  opacity: 0.25;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+  25% {
+  opacity: .33;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+  50% {
+  opacity: .50;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+  75% {
+  opacity: .75;
+  background: linear-gradient(to top,$heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+
+  100% {
+  opacity: 1;
+  background: linear-gradient(to top,$heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  margin-right: 0;
+}
+}
+
+.containers {
+  li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.footer_page  {
+  font-size: 15px;
+}
+
+
+
+
+}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .operation h2 {
+    margin-right: 73%;
+    margin-top: 44px;
+    margin-bottom: 41px;
+    margin-left: -241px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .operation h2 {
+    margin-right: 73%;
+    margin-top: 44px;
+    margin-bottom: 41px;
+    margin-left: -241px;
+  }
+}

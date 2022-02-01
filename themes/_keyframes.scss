@@ -1,0 +1,103 @@
+
+@keyframes fullheart {
+  0% {
+  opacity: 0.25;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+
+  25% {
+  opacity: .33;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+
+  50% {
+  opacity: .50;
+  background: linear-gradient(to top, $heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+
+  75% {
+  opacity: .75;
+  background: linear-gradient(to top,$heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+}
+
+  100% {
+  opacity: 1;
+  background: linear-gradient(to top,$heart-color1 0%, $heart-color2 43%, $heart-color3 70%, $heart-color4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  margin-right: 0;
+}
+}
+
+@keyframes loader
+{
+  to {
+  opacity: 0;
+  }
+}
+
+
+@keyframes loading {
+  0%{
+  transform: rotate(0deg) scale(1);
+  border-top-color: $tertiary;
+  border-bottom-color: $red;
+  }
+  25%{
+  border-top-color: $tertiary;
+  border-bottom-color: $blue;
+  }
+  50% {
+  transform: rotate(360deg) scale(1.15);
+  border-top-color: $red;
+  border-bottom-color: $tertiary;
+  }
+  75%{
+  border-top-color: $green;
+  border-bottom-color:$primary;
+  }
+  100%{
+  transform: rotate(720deg) scale(1);
+  border-top-color: $primary;
+  border-bottom-color: $red;
+  }
+  
+}
+
+@keyframes my_anim {
+  0% {
+  transform: translateY(15px);
+  opacity: 0;
+}
+  100% {
+  transform: translateY(0);
+  opacity: 1;
+  }
+}
+
+@keyframes rotationcircle {
+  0% {      
+  transform: rotate(0);
+  }
+  100% { 
+  transform: rotate(360deg)
+  }
+}
