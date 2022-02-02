@@ -40,11 +40,10 @@
 
 p, h3 {
   overflow: hidden;
-  text-overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
   width: 92%;
 }
-
 
 
 .place {
@@ -67,6 +66,10 @@ p, h3 {
 
 .button_restaurant {
   font-size: 18px;
+}
+
+.button_order {
+  font-size: 15px;
 }
 
 
@@ -149,7 +152,6 @@ p, h3 {
 
 // /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
 
 }
 
@@ -161,20 +163,14 @@ p, h3 {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-  .operation h2 {
-    margin-right: 73%;
-    margin-top: 44px;
-    margin-bottom: 41px;
-    margin-left: -241px;
-  }
+.operation h2 {
+  margin-right: 73%;
+  margin-top: 44px;
+  margin-bottom: 41px;
+  margin-left: -198px;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .operation h2 {
-    margin-right: 73%;
-    margin-top: 44px;
-    margin-bottom: 41px;
-    margin-left: -241px;
-  }
 }

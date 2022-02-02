@@ -43,7 +43,7 @@ html {
 }
 
 .footer_page {
-  background-color: #151515db;
+  background-color: $background-color;
   color: $white;
   padding-bottom: 20px;
   margin-inline: -8px;
@@ -51,7 +51,7 @@ html {
 
 .otherpages_background {
   margin-inline: 0;
-  background-color: #151515db;
+  background-color: $background-color;
   color: $white;
   padding-bottom: 20px;
   a {

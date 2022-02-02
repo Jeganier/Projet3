@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* background-color*/
 /* color heart icon */
 /* end color heart icon*/
 /* début button order  posséde la couleur $primary */
@@ -266,7 +267,7 @@
   }
   p, h3 {
     overflow: hidden;
-    text-overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
     width: 92%;
   }
@@ -287,6 +288,9 @@
   }
   .button_restaurant {
     font-size: 18px;
+  }
+  .button_order {
+    font-size: 15px;
   }
   .fa-heart {
     right: 51px;
@@ -410,20 +414,11 @@
     margin-right: 73%;
     margin-top: 44px;
     margin-bottom: 41px;
-    margin-left: -241px;
+    margin-left: -198px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .operation h2 {
-    margin-right: 73%;
-    margin-top: 44px;
-    margin-bottom: 41px;
-    margin-left: -241px;
-  }
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
