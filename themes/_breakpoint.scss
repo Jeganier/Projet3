@@ -2,23 +2,16 @@
 @media only screen and (max-width: 600px) {
 .page_wrapper {
 
-  font-size: 15px; 
+  font-size: 13px; 
 }
   
-.body_page {
-  font-size: 15px;
-}
-
 
 .contained_details h1 {
   font-size: smaller;
   position: relative;
+  
 }
 
-.contained_details i {
-  margin-top: -78px;
-  position: absolute;
-}
 
 .arrow {
   left: 20px;
@@ -72,19 +65,20 @@ p, h3 {
   font-size: 15px;
 }
 
+.heart_otherpage {
+  margin-top: 55px;
+  
+}
+
 
 .fa-heart {
   right: 51px;
   font-size: 29px;
-  margin-top: 24px;
-}
-
-.contained_details i {
   margin-top: -75px;
-  position: absolute;
-  margin-left: 50px;
-
+  
 }
+
+
 
 @keyframes fullheart {
   0% {
@@ -135,6 +129,9 @@ p, h3 {
 }
 
 .containers {
+  display: flex;
+  width: 88%;
+  
   li {
     margin-left: 0;
     margin-right: 0;

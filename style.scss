@@ -21,7 +21,7 @@ html {
 }
 
 .page_wrapper {
-  font-size: 20px;
+  font-size: inherit;
 
 }
 
@@ -201,6 +201,7 @@ ul {
   h2 {
     margin-right: 54%;
     margin-top: 44px;
+    margin-bottom: 40px;
   } 
 
   &_bubble {
@@ -242,14 +243,29 @@ li {
   }
 }
 
+.heart_otherpage {
+  margin-top: 93px;
+  &:hover {
+    .fa-heart {    
+        opacity: 1;
+        color: $primary; 
+        transition: color 500ms ease-out;
+        animation: fullheart 300ms linear forwards;
+        opacity: 1;         
+    }
+  }
+
+  .fa-heart {
+    margin-top: -39px;
+  }
+}
+
 
 
 .fa-heart {
   display: flex;
-  position: absolute;
-  right: 51px;
-  font-size: 38px;
-  margin-top: 24px;  
+  font-size: 38px; 
+  margin-left: -44px;
 }
 
 .heart {
@@ -265,15 +281,21 @@ li {
   }
 }
 
-.empty_heart {
-  opacity: 1;
-  z-index: 1;
-  &:hover{
-    color: $primary;
-    transition: color 300ms ease-out;
-    z-index: 1;
+.heart_container {
+  margin-right: 50px;
+  margin-top: 20px;
+  &:hover {
+    .fa-heart {    
+        opacity: 1;
+        color: $primary; 
+        transition: color 500ms ease-out;
+        animation: fullheart 300ms linear forwards;
+        opacity: 1;         
+    }
   }
 }
+
+
 
 card_text {
   display: flex;
@@ -305,7 +327,8 @@ card_text {
   }
   &_title {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     h3 {
       margin-bottom: 0;
     }
@@ -374,11 +397,9 @@ p,h3{
   font-family: 'Shrikhand', cursive;
   font-size: larger;
   font-size: 33px;
-  margin-left: 20px;
-  i {
-    margin-top: -97px;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px -40px 20px;
 }
 
 .homepage{
@@ -441,9 +462,6 @@ p,h3{
     align-items: flex-end;
   }
 }
-
-
-
 
 .check
 {
@@ -585,13 +603,6 @@ transition-timing-function: ease;
   z-index: 2;
 }
 
-@keyframes loader
-{
-  to 
-  {
-        opacity: 0;
-  }
-}
 
 /*fin de chargement*/
 

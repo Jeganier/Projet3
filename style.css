@@ -236,18 +236,11 @@
 
 @media only screen and (max-width: 600px) {
   .page_wrapper {
-    font-size: 15px;
-  }
-  .body_page {
-    font-size: 15px;
+    font-size: 13px;
   }
   .contained_details h1 {
     font-size: smaller;
     position: relative;
-  }
-  .contained_details i {
-    margin-top: -78px;
-    position: absolute;
   }
   .arrow {
     left: 20px;
@@ -292,15 +285,13 @@
   .button_order {
     font-size: 15px;
   }
+  .heart_otherpage {
+    margin-top: 55px;
+  }
   .fa-heart {
     right: 51px;
     font-size: 29px;
-    margin-top: 24px;
-  }
-  .contained_details i {
     margin-top: -75px;
-    position: absolute;
-    margin-left: 50px;
   }
   @-webkit-keyframes fullheart {
     0% {
@@ -398,6 +389,12 @@
       margin-right: 0;
     }
   }
+  .containers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 88%;
+  }
   .containers li {
     margin-left: 0;
     margin-right: 0;
@@ -438,7 +435,7 @@ html {
 }
 
 .page_wrapper {
-  font-size: 20px;
+  font-size: inherit;
 }
 
 .logo {
@@ -659,6 +656,7 @@ ul {
 .operation h2 {
   margin-right: 54%;
   margin-top: 44px;
+  margin-bottom: 40px;
 }
 
 .operation_bubble {
@@ -709,14 +707,30 @@ li {
   cursor: pointer;
 }
 
+.heart_otherpage {
+  margin-top: 93px;
+}
+
+.heart_otherpage:hover .fa-heart {
+  opacity: 1;
+  color: #9356DC;
+  -webkit-transition: color 500ms ease-out;
+  transition: color 500ms ease-out;
+  -webkit-animation: fullheart 300ms linear forwards;
+          animation: fullheart 300ms linear forwards;
+  opacity: 1;
+}
+
+.heart_otherpage .fa-heart {
+  margin-top: -39px;
+}
+
 .fa-heart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  right: 51px;
   font-size: 38px;
-  margin-top: 24px;
+  margin-left: -44px;
 }
 
 .heart {
@@ -734,16 +748,19 @@ li {
   opacity: 1;
 }
 
-.empty_heart {
-  opacity: 1;
-  z-index: 1;
+.heart_container {
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
-.empty_heart:hover {
+.heart_container:hover .fa-heart {
+  opacity: 1;
   color: #9356DC;
-  -webkit-transition: color 300ms ease-out;
-  transition: color 300ms ease-out;
-  z-index: 1;
+  -webkit-transition: color 500ms ease-out;
+  transition: color 500ms ease-out;
+  -webkit-animation: fullheart 300ms linear forwards;
+          animation: fullheart 300ms linear forwards;
+  opacity: 1;
 }
 
 card_text {
@@ -788,10 +805,13 @@ card_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .card_containers_title h3 {
@@ -864,11 +884,13 @@ p, h3 {
   font-family: 'Shrikhand', cursive;
   font-size: larger;
   font-size: 33px;
-  margin-left: 20px;
-}
-
-.contained_details i {
-  margin-top: -97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 35px -40px 20px;
 }
 
 .homepage {
@@ -1056,12 +1078,6 @@ p, h3 {
           animation: loader 400ms 1.5s forwards;
   pointer-events: none;
   z-index: 2;
-}
-
-@keyframes loader {
-  to {
-    opacity: 0;
-  }
 }
 
 /*fin de chargement*/
