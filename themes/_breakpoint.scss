@@ -66,17 +66,27 @@ p, h3 {
 }
 
 .heart_otherpage {
-  margin-top: 55px;
-  
+  margin-top: 28px;  
+  .fa-heart {
+    font-size: 30px;
+  }
+}
+
+.heart_container {
+  margin-right: 50px;
+  margin-top: 32px;
+
+  .fa-heart {
+    margin-left: -34px;
+    font-size: 30px;
+  }
+}
+.heart {
+  margin-top: -29px;
 }
 
 
-.fa-heart {
-  right: 51px;
-  font-size: 29px;
-  margin-top: -75px;
-  
-}
+
 
 
 

@@ -286,12 +286,21 @@
     font-size: 15px;
   }
   .heart_otherpage {
-    margin-top: 55px;
+    margin-top: 28px;
   }
-  .fa-heart {
-    right: 51px;
-    font-size: 29px;
-    margin-top: -75px;
+  .heart_otherpage .fa-heart {
+    font-size: 30px;
+  }
+  .heart_container {
+    margin-right: 50px;
+    margin-top: 32px;
+  }
+  .heart_container .fa-heart {
+    margin-left: -34px;
+    font-size: 30px;
+  }
+  .heart {
+    margin-top: -29px;
   }
   @-webkit-keyframes fullheart {
     0% {
