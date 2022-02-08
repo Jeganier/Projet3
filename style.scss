@@ -53,6 +53,31 @@ p {
   
 }
 
+
+.footer_otherpage {
+  background-color: $background-color;
+  color: $white;
+  padding-bottom: 20px;
+  ul {
+    display: flex;
+    gap: 26px;
+    margin-left: 0;
+    flex-direction: column;
+  li {  
+    i {
+      padding-right: 10px;
+    }
+  }
+  }
+
+
+  a {
+    color: white;
+  }
+  
+}
+
+
 // .otherpages_background {
 //   margin-inline: 0;
 //   background-color: $background-color;

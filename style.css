@@ -293,6 +293,32 @@ p {
   margin-inline: -8px;
 }
 
+.footer_otherpage {
+  background-color: #151515db;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer_otherpage ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+  margin-left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_otherpage ul li i {
+  padding-right: 10px;
+}
+
+.footer_otherpage a {
+  color: white;
+}
+
 .fa .far,
 .fas {
   font-weight: 900;
