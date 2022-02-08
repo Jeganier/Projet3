@@ -993,6 +993,7 @@ p, h3 {
   display: block;
   background: -webkit-linear-gradient(#9356DC, #FF79DA, #8d4bc0, #9241df);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 350ms;
   transition: all 350ms;
