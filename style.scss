@@ -17,12 +17,11 @@ body {
 
 html {
   scroll-behavior: smooth; 
-  
+
 }
 
 .page_wrapper {
   font-size: inherit;
-
 }
 
 .logo {
@@ -30,10 +29,10 @@ html {
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 5px;    
-    img {
-      width: 195px;
-      margin-left: -53px;
-    }
+  img {
+    width: 195px;
+    margin-left: -53px;
+  }
 }
 
 p {
@@ -52,7 +51,6 @@ p {
   margin-inline: -8px;
   
 }
-
 
 .footer_otherpage {
   background-color: $background-color;
@@ -74,31 +72,6 @@ p {
   a {
     color: white;
   }
-  
-}
-
-
-// .otherpages_background {
-//   margin-inline: 0;
-//   background-color: $background-color;
-//   color: $white;
-//   padding-bottom: 20px;
-//   a {
-//     color: $white;
-//   }
-
-// }
-
-// ul {
-//   display: flex;
-//   gap: 26px;  
-//   margin-left: -49px;       
-//   }
-
-.fa .far,
-.fas {
-  font-weight: 900;
-  font-family: "font awesome 5 free";
 }
 
 .place {
@@ -124,7 +97,6 @@ ul {
   color: $black;
   background-color: #beb4b400;
 }
-
 
 .button_restaurant {
   font-size: 21px;
@@ -153,9 +125,6 @@ ul {
 }
 
 
-
-
-
 .footer_page {
   ul {
     display: flex;
@@ -180,7 +149,6 @@ ul {
   padding-top: 10px;
   
 }
-
 
 .eatery {
   display: flex;
@@ -268,15 +236,6 @@ ul {
 
 }
 
-// li {
-//   display: flex;
-//   gap: 20px;
-//   margin-right: 170px;
-//   align-items: center;
-//   margin-left: 50px;
-// }
-
-
 .card_eatery {
   position: relative;
   width: 100%;
@@ -291,66 +250,7 @@ ul {
   }
 }
 
-.heart_otherpage {
-  // margin-top: 93px;
- 
-  &:hover {
-    .fa-heart {    
-        opacity: 1;
-        color: $primary; 
-        transition: color 500ms ease-out;
-        animation: fullheart 300ms linear forwards;
-        opacity: 1;         
-    }
-  }
-
-  .fa-heart {
-    margin-top: -39px;
-  }
-}
-
-
-
-
-
-
-
-
-.heart_container {
-  margin-right: 50px;
-  margin-top: 20px;
-  .fa-heart {
-    display: flex;
-    font-size: 38px; 
-    margin-left: -44px;
-  }
-  .heart {
-    opacity: 0;
-    z-index: 2;
-  
-    &:hover {
-      opacity: 1;
-      color: $primary; 
-      transition: color 500ms ease-out;
-      animation: fullheart 300ms linear forwards;
-      opacity: 1;
-    }
-  }
-  &:hover {
-    .fa-heart {    
-        opacity: 1;
-        color: $primary; 
-        transition: color 500ms ease-out;
-        animation: fullheart 300ms linear forwards;
-        opacity: 1;    
-        font-size:30px;     
-    }
-  }
-}
-
-
-
-card_text {
+.card_text {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -382,12 +282,16 @@ card_text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     h3 {
       margin-bottom: 0;
     }
     p {
       margin-bottom: 15px;
       margin-top: 0;
+    }
+    .heart_container {
+      margin-right: 30px;
     }
   }
 
@@ -761,9 +665,6 @@ p, h3 {
 
 
 .heart_container {
-  margin-right: 50px;
-  margin-top: 32px;
-
   .fa-heart {
     margin-left: -34px;
     font-size: 30px;
@@ -771,4 +672,21 @@ p, h3 {
 }
 .heart {
   margin-top: -29px;
+}
+
+
+
+.fa-heart {
+  padding: 1px;
+  font-size: 25px;
+  cursor: pointer;
+  &:hover {
+    display: block;
+    background: -webkit-linear-gradient($primary, $secondary);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 350ms;
+    transform: scale(1.1);
+    font-weight: bold;
+  }
 }
