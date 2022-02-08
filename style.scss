@@ -545,7 +545,7 @@ transition-timing-function: ease;
     box-shadow: 4px 6px 10px $color-box-shadows;
     border: none;
     transition: box-shadow 0.8s;
-    background-image: linear-gradient(to bottom right, $color-order1 10%, $heart-color2 43%, $heart-color3 80%, $primary 100%); 
+    background-image: linear-gradient(to bottom right, $primary 10%, $secondary 43%, $heart-color1 80%, $primary 100%); 
     width: 48%;
     margin: 0 auto;
 
