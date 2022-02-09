@@ -684,6 +684,7 @@ p, h3 {
     display: block;
     background: -webkit-linear-gradient($primary, $secondary, $heart-color1,$heart-color2);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 350ms;
     transform: scale(1.1);

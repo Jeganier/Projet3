@@ -1,7 +1,7 @@
 @keyframes fullheart {
   0% {
   opacity: 0.25;
-  background: linear-gradient(to top, $primary 0%, $secondary 43%, $secondary1 70%, $secondary2 100%);
+  background: linear-gradient(to top, $primary 0%, $secondary 43%, $heart-color1 70%, $heart-color2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -10,7 +10,7 @@
 
   25% {
   opacity: .33;
-  background: linear-gradient(to top, $primary 0%, $secondary 43%, $secondary1 70%, $secondary2 100%);
+  background: linear-gradient(to top, $primary 0%, $secondary 43%, $heart-color1 70%, $heart-color2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -19,7 +19,7 @@
 
   50% {
   opacity: .50;
-  background: linear-gradient(to top, $primary 0%, $secondary 43%, $secondary1 70%, $secondary2 100%);
+  background: linear-gradient(to top, $primary 0%, $secondary 43%, $heart-color1 70%, $heart-color2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -28,7 +28,7 @@
 
   75% {
   opacity: .75;
-  background: linear-gradient(to top,$primary 0%, $secondary 43%, $secondary1 70%, $secondary2 100%);
+  background: linear-gradient(to top,$primary 0%, $secondary 43%, $heart-color1 70%, $heart-color2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -37,7 +37,7 @@
 
   100% {
   opacity: 1;
-  background: linear-gradient(to top,$primary 0%, $secondary 43%, $secondary1 70%, $secondary2 100%);
+  background: linear-gradient(to top,$primary 0%, $secondary 43%, $heart-color1 70%, $heart-color2 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
