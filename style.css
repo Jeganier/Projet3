@@ -19,99 +19,11 @@
 /* options containers hover*/
 /* button restaurant */
 /* $primary: #99E2D0; */
-@-webkit-keyframes fullheart {
-  0% {
-    opacity: 0.25;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  25% {
-    opacity: .33;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  50% {
-    opacity: .50;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  75% {
-    opacity: .75;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  100% {
-    opacity: 1;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-right: 0;
-  }
-}
-@keyframes fullheart {
-  0% {
-    opacity: 0.25;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  25% {
-    opacity: .33;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  50% {
-    opacity: .50;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  75% {
-    opacity: .75;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  100% {
-    opacity: 1;
-    background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(43%, #FF79DA), color-stop(70%, #8d4bc0), to(#9241df));
-    background: linear-gradient(to top, #9356DC 0%, #FF79DA 43%, #8d4bc0 70%, #9241df 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-right: 0;
-  }
-}
-
 @-webkit-keyframes loader {
   to {
     opacity: 0;
   }
 }
-
 @keyframes loader {
   to {
     opacity: 0;
